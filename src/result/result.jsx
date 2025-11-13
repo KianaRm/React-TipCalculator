@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Calculator from "../calculator/calculator";
 
 function Result({ bill, setBill, tip, setTip, number, setNumber,amount,setAmount,total, setTotal }){
 
@@ -52,5 +51,6 @@ function Result({ bill, setBill, tip, setTip, number, setNumber,amount,setAmount
         </div>
     )
 }
+
 
 export default Result;
