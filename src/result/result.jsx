@@ -17,7 +17,7 @@ function Result({ bill, setBill, tip, setTip, number, setNumber,amount,setAmount
    useEffect(()=>{
      tipAmount()
      totalResult()
-   },[tip,bill,number,amount,total]);
+   },[tip,bill,number,amount,total, tipAmount, totalResult]);
 
    function resetButton(){
     setBill('');
@@ -54,3 +54,4 @@ function Result({ bill, setBill, tip, setTip, number, setNumber,amount,setAmount
 
 
 export default Result;
+
